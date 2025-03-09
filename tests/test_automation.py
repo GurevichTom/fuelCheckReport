@@ -43,11 +43,7 @@ def test_sign_in(mock_fill_form, mock_click):
 
     # Check each call's positional args
     calls = mock_fill_form.call_args_list
-    # calls[i] is a tuple: ( (positional_args...), {keyword_args...} )
-    # We'll just check positions:
-    #   calls[i][0][0] -> driver
-    #   calls[i][0][1] -> the CSS selector
-    #   calls[i][0][2] -> the text
+    
     from config import BUSINESS_PARTNER_NUMBER, USER_ID, PASSWORD
     expected_texts = [BUSINESS_PARTNER_NUMBER, USER_ID, PASSWORD]
 
