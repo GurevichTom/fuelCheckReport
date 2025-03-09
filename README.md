@@ -49,7 +49,7 @@ fuelCheckReport/
 
 1. **Clone** the Repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/fuelCheckReport.git
+   git clone https://github.com/GurevichTom/fuelCheckReport.git
    cd fuelCheckReport
    ```
 
