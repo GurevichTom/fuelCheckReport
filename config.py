@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 Configuration file for the 'pazomat automation' script.
 """
 
-# Load environment variables (if using a .env file)
+# Load environment variables 
 load_dotenv()
 
 # 1. Chrome WebDriver Settings
